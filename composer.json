@@ -1,0 +1,47 @@
+{
+    "name": "chr1sc0des/code-encrypter-laravel",
+    "description": "A code encrypter for the Laravel framework.",
+    "keywords": [
+        "chr1sc0des",
+        "code-encrypter-laravel"
+    ],
+    "homepage": "https://github.com/chr1sc0des/code-encrypter-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Pearse",
+            "email": "chris@cpearse.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/contracts": "^10.0",
+        "spatie/laravel-package-tools": "^1.14.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeEncrypter\\Laravel\\": "src/"
+        }
+    },
+    "scripts": {
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodeEncrypter\\Laravel\\CodeEncrypterServiceProvider"
+            ],
+            "aliases": {
+                "CodeEncrypter": "CodeEncrypter\\Laravel\\Facades\\CodeEncrypter"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
