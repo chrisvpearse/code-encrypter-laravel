@@ -1,11 +1,11 @@
 {
-    "name": "chr1sc0des/code-encrypter-laravel",
+    "name": "chrisvpearse/code-encrypter-laravel",
     "description": "A code encrypter for the Laravel framework.",
     "keywords": [
-        "chr1sc0des",
+        "chrisvpearse",
         "code-encrypter-laravel"
     ],
-    "homepage": "https://github.com/chr1sc0des/code-encrypter-laravel",
+    "homepage": "https://github.com/chrisvpearse/code-encrypter-laravel",
     "license": "MIT",
     "authors": [
         {
